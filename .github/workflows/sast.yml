@@ -45,3 +45,5 @@ jobs:
         uses: github/codeql-action/upload-sarif@v2
         with:
           sarif_file: results.sarif
+          checkout_path: /home/runner/work/SAST-Home-Work/SAST-Home-Work
+
