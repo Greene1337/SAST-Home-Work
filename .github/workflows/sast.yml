@@ -38,5 +38,7 @@ jobs:
       - name: nodejsscan scan
         id: njsscan
         uses: ajinabraham/njsscan-action@master
+        with:
+          args: '.'
 
 
